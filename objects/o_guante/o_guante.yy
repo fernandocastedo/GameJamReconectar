@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "o_guante",
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_guanteOpen",
+    "path": "sprites/s_guanteOpen/s_guanteOpen.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -21,11 +24,13 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Puzzle",
+    "path": "folders/Objects/Puzzle.yy",
   },
 }
