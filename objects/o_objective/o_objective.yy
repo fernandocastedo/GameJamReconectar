@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_door",
+  "name": "o_objective",
   "spriteId": {
-    "name": "s_door",
-    "path": "sprites/s_door/s_door.yy",
+    "name": "s_objetivo",
+    "path": "sprites/s_objetivo/s_objetivo.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -24,13 +24,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Interactuables",
-    "path": "folders/Objects/Interactuables.yy",
+    "name": "Puzzle",
+    "path": "folders/Objects/Puzzle.yy",
   },
 }

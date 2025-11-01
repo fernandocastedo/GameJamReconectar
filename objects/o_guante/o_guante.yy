@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_guante",
   "spriteId": {
-    "name": "s_guanteOpen",
-    "path": "sprites/s_guanteOpen/s_guanteOpen.yy",
+    "name": "s_guanteMask",
+    "path": "sprites/s_guanteMask/s_guanteMask.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,6 +26,8 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
