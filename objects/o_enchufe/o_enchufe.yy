@@ -1,11 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_cable",
-  "spriteId": {
-    "name": "s_cableRojo",
-    "path": "sprites/s_cableRojo/s_cableRojo.yy",
-  },
+  "name": "o_enchufe",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -26,6 +23,8 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_guante","path":"objects/o_guante/o_guante.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_cable","path":"objects/o_cable/o_cable.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],

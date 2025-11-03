@@ -9,15 +9,29 @@ if(x_prev != mouse_x or y_prev != mouse_y)
 		y_prev = y;
 		largo -= 1;
 	}
+	else{
+		move_towards_point(mouse_x,mouse_y,0)
+	}
 }
 
 if(place_meeting(x,y,o_objective))
 {
+	o_cable.connected= true
 	instance_destroy();
 }
 
-if(!mouse_check_button(mb_left) or place_meeting(x,y,o_obstaclearana))
+if(place_meeting(x,y,o_obstaclearana))
 {
-	with(o_cable) instance_destroy();
+	with(o_cable)instance_destroy();
+	with(o_enchufe)connected=0
+	
+	instance_destroy();
+}
+if(!mouse_check_button(mb_left))
+{
+	with(o_cable){
+		if(connected=false)
+		instance_destroy();
+	}
 	instance_destroy();
 }

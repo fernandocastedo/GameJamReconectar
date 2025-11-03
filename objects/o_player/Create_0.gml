@@ -12,7 +12,7 @@ left=0
 
 //Movimiento-------------
 
-speedMax= 3;
+speedMax= 7;
 
 accel = 0.25;
 
