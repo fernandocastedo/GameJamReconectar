@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_radio",
+  "name": "o_Habilitador",
   "spriteId": {
-    "name": "s_radio",
-    "path": "sprites/s_radio/s_radio.yy",
+    "name": "s_mask_habilitador",
+    "path": "sprites/s_mask_habilitador/s_mask_habilitador.yy",
   },
   "solid": false,
   "visible": true,

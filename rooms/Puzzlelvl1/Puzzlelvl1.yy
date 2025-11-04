@@ -19,7 +19,7 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Puzzle","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_15923A2F","properties":[],"isDnd":false,"objectId":{"name":"o_obstaclearana","path":"objects/o_obstaclearana/o_obstaclearana.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":192.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5AED354D","properties":[],"isDnd":false,"objectId":{"name":"o_guante","path":"objects/o_guante/o_guante.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":128.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_F5E9B11","properties":[],"isDnd":false,"objectId":{"name":"o_puzzle_controller","path":"objects/o_puzzle_controller/o_puzzle_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":32.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_63C898A5","properties":[],"isDnd":false,"objectId":{"name":"o_puzzle_interface","path":"objects/o_puzzle_interface/o_puzzle_interface.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":32.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_69A29545","properties":[],"isDnd":false,"objectId":{"name":"o_objective","path":"objects/o_objective/o_objective.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":384.0,},
@@ -38,13 +38,13 @@
   "instanceCreationOrder": [
     {"name":"inst_15923A2F","path":"rooms/Puzzlelvl1/Puzzlelvl1.yy",},
     {"name":"inst_5AED354D","path":"rooms/Puzzlelvl1/Puzzlelvl1.yy",},
-    {"name":"inst_F5E9B11","path":"rooms/Puzzlelvl1/Puzzlelvl1.yy",},
     {"name":"inst_69A29545","path":"rooms/Puzzlelvl1/Puzzlelvl1.yy",},
     {"name":"inst_692F305C","path":"rooms/Puzzlelvl1/Puzzlelvl1.yy",},
     {"name":"inst_6F99987A","path":"rooms/Puzzlelvl1/Puzzlelvl1.yy",},
     {"name":"inst_42BDA5C6","path":"rooms/Puzzlelvl1/Puzzlelvl1.yy",},
     {"name":"inst_3DDA5AB0","path":"rooms/Puzzlelvl1/Puzzlelvl1.yy",},
     {"name":"inst_77D92CA7","path":"rooms/Puzzlelvl1/Puzzlelvl1.yy",},
+    {"name":"inst_63C898A5","path":"rooms/Puzzlelvl1/Puzzlelvl1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

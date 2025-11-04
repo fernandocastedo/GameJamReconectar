@@ -15,3 +15,7 @@
 
 //Controlladores importantes
 global.objetivosAlcanzados= 0
+
+
+
+TotalObjetivos = -1

@@ -1,6 +1,6 @@
 //Input --------------
 if(puzzle_active==false and can_move==true){
-	if(keyboard_check(vk_right))
+	if keyboard_check(ord("D"))
 	{ 
 		left=0
 		hspeed+= accel;
@@ -9,7 +9,7 @@ if(puzzle_active==false and can_move==true){
 		
 	
 	}
-	if(keyboard_check(vk_left))
+	if keyboard_check(ord("A"))
 	{
 		right=0
 		hspeed -= accel;
@@ -19,7 +19,7 @@ if(puzzle_active==false and can_move==true){
 	}
 	//Checks --------------
 
-	if(!keyboard_check(vk_right) and !keyboard_check(vk_left))hspeed=0 ;
-	if(keyboard_check(vk_right) and keyboard_check(vk_left))hspeed=0;
+	if(!keyboard_check(ord("D")) and !keyboard_check(ord("A")))hspeed=0 ;
+	if(keyboard_check(ord("D")) and keyboard_check(ord("A")))hspeed=0;
 }
 

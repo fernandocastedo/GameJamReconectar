@@ -5,7 +5,7 @@ if (!variable_global_exists("prev_room")) global.prev_room = undefined;
 if (!variable_global_exists("pending_player_x")) global.pending_player_x = undefined;
 if (!variable_global_exists("pending_player_y")) global.pending_player_y = undefined;
 
-//Controlsprite
+//Controlsprite del player
 right=1
 left=0
 
@@ -20,3 +20,6 @@ accel = 0.25;
 can_move =true
 puzzle_active = false;
 near_radio = false;
+
+//Control de acceso puzzle
+puzzle_habilitado= "1"
