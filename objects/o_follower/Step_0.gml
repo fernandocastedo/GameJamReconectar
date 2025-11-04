@@ -16,7 +16,8 @@ if(x_prev != mouse_x or y_prev != mouse_y)
 
 if(place_meeting(x,y,o_objective))
 {
-	o_cable.connected= true
+	o_cable.connected =1
+	global.objetivosAlcanzados+=1
 	instance_destroy();
 }
 
@@ -24,6 +25,7 @@ if(place_meeting(x,y,o_obstaclearana))
 {
 	with(o_cable)instance_destroy();
 	with(o_enchufe)connected=0
+	global.objetivosAlcanzados= 0
 	
 	instance_destroy();
 }

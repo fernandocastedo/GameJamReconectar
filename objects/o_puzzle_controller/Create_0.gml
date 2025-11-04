@@ -13,4 +13,5 @@
 //enchufe_ids = array_create(countE);
 
 
-// Para los Enchufes ----------------------------------------------------------
+//Controlladores importantes
+global.objetivosAlcanzados= 0

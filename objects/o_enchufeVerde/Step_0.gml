@@ -6,3 +6,11 @@
 show_debug_message(o_enchufeInicio.id)
 show_debug_message(o_enchufeInicio.connected)
 
+*/
+with(o_cable)
+{
+	if(sprite_index == s_cableVerde and place_meeting(x,y,o_objective))
+	{
+		o_enchufeVerde.connected=1
+	}
+}

@@ -2,3 +2,5 @@
 // You can write your code in this editor
 window_set_cursor(cr_none);
 
+primera_colision= noone;  
+prueba = noone
