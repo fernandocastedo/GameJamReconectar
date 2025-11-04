@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "_169288__robinhood76__03780_fear_film_theme",
+  "name": "snd_music2",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.1,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "_169288__robinhood76__03780_fear_film_theme.wav",
-  "duration": 19.26399,
+  "soundFile": "snd_music2.wav",
+  "duration": 14.769229,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

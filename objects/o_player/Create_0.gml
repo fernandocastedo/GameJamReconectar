@@ -6,7 +6,7 @@ if (!variable_global_exists("pending_player_x")) global.pending_player_x = undef
 if (!variable_global_exists("pending_player_y")) global.pending_player_y = undefined;
 
 //Controlsprite
-right=0
+right=1
 left=0
 
 

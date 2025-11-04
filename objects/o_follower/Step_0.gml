@@ -26,7 +26,7 @@ if(place_meeting(x,y,o_obstaclearana))
 	with(o_cable)instance_destroy();
 	with(o_enchufe)connected=0
 	global.objetivosAlcanzados= 0
-	
+	audio_play_sound(snd_wrong, 0, false)
 	instance_destroy();
 }
 if(!mouse_check_button(mb_left))
@@ -35,5 +35,6 @@ if(!mouse_check_button(mb_left))
 		if(connected=false)
 		instance_destroy();
 	}
+	audio_play_sound(snd_wrong, 0, false)
 	instance_destroy();
 }
