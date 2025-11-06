@@ -3,4 +3,3 @@
 window_set_cursor(cr_none);
 
 primera_colision= noone;  
-prueba = noone
