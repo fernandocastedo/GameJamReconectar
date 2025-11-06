@@ -1,13 +1,17 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-/*
-draw_set_color(c_white);
-draw_rectangle(camera_x,camera_y,0,0,0);
- 
-repeat(5) draw_sprite(s_screen,0,camera_x,camera_y);
- 
-draw_sprite(s_text_back,0,camera_x+265,camera_y+490);
- 
- 
-draw_text_ext(camera_x+315,camera_y+230,chat,-1,650);
+if(keyboard_check_pressed(vk_space))
+{
+	if(!ds_queue_empty(global.list_chat))
+	{
+		chat = ds_queue_head(global.list_chat);
+		ds_queue_dequeue(global.list_chat);
+	}
+	else
+	{
+		sprite_delete(s_screen);
+		instance_activate_all();
+		instance_destroy();
+	}
+}
