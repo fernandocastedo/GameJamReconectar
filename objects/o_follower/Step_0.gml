@@ -1,3 +1,4 @@
+sprite_index = global.colorcable
 
 if(x_prev != mouse_x or y_prev != mouse_y)
 {

@@ -16,3 +16,8 @@ else if(primera_colision == o_enchufeAzul){
 else if(primera_colision == o_enchufeRojo){
 	global.colorcable = s_cableRojo
 }
+
+if(keyboard_check(vk_control) and !object_exists(o_guia))
+{
+	instance_create_layer(709,64,"puzzle",o_guia);
+}

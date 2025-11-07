@@ -15,7 +15,7 @@
 
 //Controlladores importantes
 global.objetivosAlcanzados= 0
-
+global.colorcable = noone
 
 
 TotalObjetivos = -1
