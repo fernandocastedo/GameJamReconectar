@@ -17,5 +17,13 @@
 global.objetivosAlcanzados= 0
 global.colorcable = noone
 
+switch o_player.puzzle_habilitado{
+	case "1":
+	cablerojo = 150
+	cableverde = 100
+	cableazul = 130
+}
+
+
 
 TotalObjetivos = -1

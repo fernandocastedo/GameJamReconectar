@@ -14,7 +14,6 @@
     {"id":{"name":"o_hermana","path":"objects/o_hermana/o_hermana.yy",},"order":2,},
     {"id":{"name":"s_sotano","path":"sprites/s_sotano/s_sotano.yy",},"order":4,},
     {"id":{"name":"s_madre","path":"sprites/s_madre/s_madre.yy",},"order":2,},
-    {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},"order":25,},
     {"id":{"name":"o_cable","path":"objects/o_cable/o_cable.yy",},"order":0,},
     {"id":{"name":"Room7","path":"rooms/Room7/Room7.yy",},"order":13,},
     {"id":{"name":"snd_music1","path":"sounds/snd_music1/snd_music1.yy",},"order":1,},

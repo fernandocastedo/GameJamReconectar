@@ -9,12 +9,15 @@ if(!instance_exists(o_follower))
 }
 if(primera_colision == o_enchufeVerde){
 	global.colorcable = s_cableVerde
+	cable = o_puzzle_controller.cableverde
 }
 else if(primera_colision == o_enchufeAzul){
 	global.colorcable = s_cableAzul
+	cable = o_puzzle_controller.cableazul
 }
 else if(primera_colision == o_enchufeRojo){
 	global.colorcable = s_cableRojo
+	cable = o_puzzle_controller.cablerojo
 }
 
 if(keyboard_check(vk_control) and !object_exists(o_guia))

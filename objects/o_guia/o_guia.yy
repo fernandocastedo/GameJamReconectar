@@ -7,7 +7,7 @@
     "path": "sprites/s_guia_mask/s_guia_mask.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,

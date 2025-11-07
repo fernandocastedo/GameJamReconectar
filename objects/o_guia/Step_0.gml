@@ -7,3 +7,4 @@ if(x >=384)
 	if(hspeed < -speedMax) hspeed = -speedMax;
 }
 if(x <= 384) hspeed = 0
+
