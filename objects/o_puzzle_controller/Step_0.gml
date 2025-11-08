@@ -19,6 +19,7 @@ if(global.objetivosAlcanzados = TotalObjetivos){
 	instance_destroy();
 }
 
+
 /*
 if (global.puzzle_completed) {
     draw_set_color(c_green);

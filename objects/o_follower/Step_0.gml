@@ -1,26 +1,21 @@
 sprite_index = global.colorcable
-
+show_debug_message(global.colorcable)
 if(x_prev != mouse_x or y_prev != mouse_y)
 {
-	if(largo > 0)
+	if(largoActual > 0)
 	{
 		move_towards_point(mouse_x,mouse_y,4)
 		instance_create_depth(x,y,depth,o_cable)
 		x_prev = x;
 		y_prev = y;
-		largo -= 1;
+		largoActual -= 1;
 	}
 	else{
 		move_towards_point(mouse_x,mouse_y,0)
 	}
 }
 
-if(place_meeting(x,y,o_objective))
-{
-	o_cable.connected =1
-	global.objetivosAlcanzados+=1
-	instance_destroy();
-}
+
 
 if(place_meeting(x,y,o_obstaclearana))
 {

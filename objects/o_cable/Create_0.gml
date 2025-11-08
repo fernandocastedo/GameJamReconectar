@@ -4,7 +4,7 @@
 connected= 0
 sprite_index = global.colorcable
 
-/*
+/* Antiguo codigo de verificación de colores por objetivo...
 if(global.objetivosAlcanzados ==0)
 {
 	sprite_index= s_cableRojo

@@ -6,3 +6,4 @@
 // Inherit the parent event
 event_inherited();
 
+VerificarColor= 3

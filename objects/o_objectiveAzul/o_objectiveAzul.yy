@@ -1,14 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_objective",
-  "spriteId": null,
+  "name": "o_objectiveAzul",
+  "spriteId": {
+    "name": "s_objetivo",
+    "path": "sprites/s_objetivo/s_objetivo.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "o_objective",
+    "path": "objects/o_objective/o_objective.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

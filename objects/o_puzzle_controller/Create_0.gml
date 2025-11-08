@@ -14,14 +14,16 @@
 
 
 //Controlladores importantes
+instance_create_layer(mouse_x, mouse_y,"Puzzle",o_guante)
 global.objetivosAlcanzados= 0
 global.colorcable = noone
 
 switch o_player.puzzle_habilitado{
 	case "1":
-	cablerojo = 150
-	cableverde = 100
-	cableazul = 130
+	cablerojo = 170
+	cableverde = 160
+	cableazul = 150
+	dificultad = 1
 }
 
 
