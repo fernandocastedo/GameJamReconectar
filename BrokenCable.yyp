@@ -37,6 +37,7 @@
     {"id":{"name":"o_obstaculo","path":"objects/o_obstaculo/o_obstaculo.yy",},"order":9,},
     {"id":{"name":"Room6","path":"rooms/Room6/Room6.yy",},"order":10,},
     {"id":{"name":"o_enchufeRojo","path":"objects/o_enchufeRojo/o_enchufeRojo.yy",},"order":2,},
+    {"id":{"name":"s_familiasaludando","path":"sprites/s_familiasaludando/s_familiasaludando.yy",},"order":4,},
     {"id":{"name":"s_Patio","path":"sprites/s_Patio/s_Patio.yy",},"order":1,},
     {"id":{"name":"o_enchufeVerde","path":"objects/o_enchufeVerde/o_enchufeVerde.yy",},"order":8,},
     {"id":{"name":"o_abuelo","path":"objects/o_abuelo/o_abuelo.yy",},"order":0,},
