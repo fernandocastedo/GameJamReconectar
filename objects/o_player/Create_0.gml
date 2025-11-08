@@ -22,4 +22,4 @@ puzzle_active = false;
 near_radio = false;
 
 //Control de acceso puzzle
-puzzle_habilitado= "1"
+puzzle_habilitado= 1

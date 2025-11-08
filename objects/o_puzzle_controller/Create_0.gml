@@ -19,13 +19,44 @@ global.objetivosAlcanzados= 0
 global.colorcable = noone
 
 switch o_player.puzzle_habilitado{
-	case "1":
-	cablerojo = 170
-	cableverde = 160
-	cableazul = 150
-	dificultad = 1
+	case 1:
+		cablerojo = 170
+		cableverde = 160
+		cableazul = 150
+		mirror = false
+		entrelazado = true
+		TotalObjetivos = 3
+	break;
+	case 2:
+		cablerojo = 120
+		cableverde = 140
+		cableazul = 150
+		mirror = false
+		entrelazado = false
+		TotalObjetivos= 5
+	break;
+	case 3:
+		cablerojo = 120
+		cableverde = 140
+		cableazul = 150
+		mirror = false
+		entrelazado = false
+		TotalObjetivos= 5
+	break;
+	case 4:
+		cablerojo = 120
+		cableverde = 140
+		cableazul = 150
+		mirror = false
+		entrelazado = false
+		TotalObjetivos= 4
+	case 5:	
+		cablerojo = 200
+		cableverde = 180
+		cableazul = 190
+		mirror = false
+		entrelazado = false
+		TotalObjetivos= 7
+	break;
 }
 
-
-
-TotalObjetivos = -1

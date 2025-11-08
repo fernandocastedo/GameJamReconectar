@@ -10,9 +10,6 @@ if(object_exists(o_cable)){
 
 o_player.can_move = false
 
-if(room == Puzzlelvl1)TotalObjetivos=3
-else if(room == Puzzlelvl2)TotalObjetivos=5
-else if(room == Puzzlelvl2)TotalObjetivos=7
 
 if(global.objetivosAlcanzados = TotalObjetivos){
 	room_goto_previous()

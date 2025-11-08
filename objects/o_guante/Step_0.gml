@@ -20,7 +20,7 @@ else if(primera_colision == o_enchufeRojo){
 	cable = o_puzzle_controller.cablerojo
 }
 
-if(keyboard_check(vk_control) and !object_exists(o_guia))
+if (mouse_check_button_pressed(mb_right) && !instance_exists(o_guia))
 {
-	instance_create_layer(709,64,"puzzle",o_guia);
+	instance_create_layer(709,64,"Puzzle",o_guia);
 }
