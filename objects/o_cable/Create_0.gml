@@ -3,6 +3,7 @@
 
 connected= 0
 sprite_index = global.colorcable
+colorfinal = sprite_index
 
 /* Antiguo codigo de verificación de colores por objetivo...
 if(global.objetivosAlcanzados ==0)

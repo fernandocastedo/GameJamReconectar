@@ -28,7 +28,7 @@ if(place_meeting(x,y,o_obstaclearana))
 if(!mouse_check_button(mb_left))
 {
 	with(o_cable){
-		if(connected=false)
+		if(connected==false)
 		instance_destroy();
 	}
 	audio_play_sound(snd_wrong, 0, false)

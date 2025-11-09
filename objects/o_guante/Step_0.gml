@@ -19,6 +19,14 @@ else if(primera_colision == o_enchufeRojo){
 	global.colorcable = s_cableRojo
 	cable = o_puzzle_controller.cablerojo
 }
+else if(primera_colision == o_enchufeRojo2){
+	global.colorcable = s_cableRojo
+	cable = o_puzzle_controller.cablerojo
+}
+else if(primera_colision == o_enchufeAzul2){
+	global.colorcable = s_cableAzul
+	cable = o_puzzle_controller.cableazul
+}
 
 if (mouse_check_button_pressed(mb_right) && !instance_exists(o_guia))
 {

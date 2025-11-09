@@ -7,10 +7,6 @@ if(object_exists(o_cable)){
 
 //Contador de objetivos para luego en el o_cable cambiar el color del cable
 
-
-o_player.can_move = false
-
-
 if(global.objetivosAlcanzados = TotalObjetivos)instance_destroy()
 
 

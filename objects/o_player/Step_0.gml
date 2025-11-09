@@ -1,4 +1,5 @@
 //Input --------------
+
 if(puzzle_active==false and can_move==true){
 	if keyboard_check(ord("D"))
 	{ 
@@ -23,4 +24,6 @@ if(puzzle_active==false and can_move==true){
 	if(keyboard_check(ord("D")) and keyboard_check(ord("A")))hspeed=0;
 }
 
+if(x > room_width-(sprite_width/2)) x = room_width-(sprite_width/2);
+if(x < 0+(sprite_width/2)) x = (sprite_width/2);
 

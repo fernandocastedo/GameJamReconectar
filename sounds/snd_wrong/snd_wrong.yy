@@ -4,7 +4,7 @@
   "name": "snd_wrong",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.95,
+  "volume": 0.85,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
