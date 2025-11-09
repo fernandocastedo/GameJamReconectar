@@ -8,3 +8,4 @@ if(x >=384)
 }
 if(x <= 384) hspeed = 0
 
+if(y >= 500) instance_destroy()

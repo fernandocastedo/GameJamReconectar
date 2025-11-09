@@ -42,17 +42,17 @@ switch o_player.puzzle_habilitado{
 		o_enchufeVerde.sprite_index = s_EnchufeVerde_P2
 	break;
 	case 3:
-		cableamarillo = 170
-		cableamarilloblanco = 150
-		cableaverdeblanco = 200
-		cableceleste = 170
-		cablecelesteblanco= 220
-		cableverde = 250
-		cablecafe = 300
+		cableamarillo = 140
+		cableamarilloblanco = 70
+		cableaverdeblanco = 110
+		cableceleste = 70
+		cablecelesteblanco= 70
+		cableverde = 110
+		cablecafe = 70
 		cablecafeblanco = 350
-		mirror = false
-		entrelazado = false
-		TotalObjetivos= 5
+		mirror = true
+		entrelazado = true
+		TotalObjetivos= 8
 	break;
 	case 4:
 		cablerojo = 120

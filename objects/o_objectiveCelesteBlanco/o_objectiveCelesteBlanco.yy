@@ -7,7 +7,7 @@
     "path": "sprites/s_mascara_objetivo_p3/s_mascara_objetivo_p3.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
