@@ -6,6 +6,7 @@ if(o_objectiveVerde.connected ==0 and o_objectiveVerde.CableObjetivo == global.c
 {
 	o_cable.connected =1
 	global.objetivosAlcanzados+=1
+	o_enchufeVerde.connected=1
 	instance_destroy();
 	
 }
