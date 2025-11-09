@@ -3,3 +3,6 @@
 
 o_player.can_move = true
 o_player.visible = true
+o_player.puzzle_habilitado +=1
+
+room_goto_previous()

@@ -23,3 +23,4 @@ if(puzzle_active==false and can_move==true){
 	if(keyboard_check(ord("D")) and keyboard_check(ord("A")))hspeed=0;
 }
 
+

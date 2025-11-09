@@ -11,10 +11,7 @@ if(object_exists(o_cable)){
 o_player.can_move = false
 
 
-if(global.objetivosAlcanzados = TotalObjetivos){
-	room_goto_previous()
-	instance_destroy();
-}
+if(global.objetivosAlcanzados = TotalObjetivos)instance_destroy()
 
 
 /*
