@@ -18,6 +18,7 @@
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Puzzle","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5AE925EC_1","properties":[],"isDnd":false,"objectId":{"name":"o_puzzle_controller","path":"objects/o_puzzle_controller/o_puzzle_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":32.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_757BA71E","properties":[],"isDnd":false,"objectId":{"name":"o_guia","path":"objects/o_guia/o_guia.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":96.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_15923A2F_1_1","properties":[],"isDnd":false,"objectId":{"name":"o_obstaclearana","path":"objects/o_obstaclearana/o_obstaclearana.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":192.0,},
@@ -44,7 +45,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_60FF036B","properties":[],"isDnd":false,"objectId":{"name":"o_enchufeCafeBlanco","path":"objects/o_enchufeCafeBlanco/o_enchufeCafeBlanco.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":495.0,"y":234.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_461082A4","properties":[],"isDnd":false,"objectId":{"name":"o_enchufeCafe","path":"objects/o_enchufeCafe/o_enchufeCafe.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":495.0,"y":272.0,},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":{"name":"s_backgroundPuzzle","path":"sprites/s_backgroundPuzzle/s_backgroundPuzzle.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":{"name":"s_backgroud_p2_1","path":"sprites/s_backgroud_p2_1/s_backgroud_p2_1.yy",},"colour":4294967295,"x":0,"y":0,"htiled":true,"vtiled":false,"hspeed":0.25,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
   "inheritLayers": false,
   "creationCodeFile": "",
@@ -70,6 +71,7 @@
     {"name":"inst_12933505","path":"rooms/Puzzlenivel3/Puzzlenivel3.yy",},
     {"name":"inst_368C030F","path":"rooms/Puzzlenivel3/Puzzlenivel3.yy",},
     {"name":"inst_629B9CAB","path":"rooms/Puzzlenivel3/Puzzlenivel3.yy",},
+    {"name":"inst_757BA71E","path":"rooms/Puzzlenivel3/Puzzlenivel3.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -84,13 +84,7 @@ if(o_puzzle_controller.mirror == true){
 
 
 
-if (mouse_check_button(mb_right)) {
-    if (!instance_exists(o_guia)) {
-        instance_create_layer(709, 64, "Puzzle", o_guia);
-    } else {
-        with (o_guia) instance_destroy();
-    }
-}
+
 if(instance_exists(o_guia))show_debug_message(o_guia.x)
 
 /*else if(instance_exists(o_guia)){
