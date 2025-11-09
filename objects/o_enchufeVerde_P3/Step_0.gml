@@ -5,11 +5,12 @@
 
 show_debug_message(o_enchufeInicio.id)
 show_debug_message(o_enchufeInicio.connected)
+
 */
 with(o_cable)
 {
-	if(sprite_index == s_cableAmarilloConBlanco and place_meeting(x,y,o_objective))
+	if(sprite_index == s_cableVerde and place_meeting(x,y,o_objective))
 	{
-		o_enchufeAmarilloBlanco.connected=1
+		o_enchufeVerde.connected=1
 	}
 }
