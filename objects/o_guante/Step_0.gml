@@ -1,7 +1,7 @@
 x = mouse_x
 y = mouse_y
 
-show_debug_message(primera_colision)
+//show_debug_message(primera_colision)
 
 if(!instance_exists(o_follower))
 {
@@ -83,13 +83,18 @@ if(o_puzzle_controller.mirror == true){
 
 
 
-if(!instance_exists(o_guia)){
-	if (mouse_check_button_pressed(mb_right))
-	{
-		instance_create_layer(709,64,"Puzzle",o_guia);
-	}
-	else{
-		o_guia.vspeed =+0.25
-	}
+
+if (mouse_check_button(mb_right)) {
+    if (!instance_exists(o_guia)) {
+        instance_create_layer(709, 64, "Puzzle", o_guia);
+    } else {
+        with (o_guia) instance_destroy();
+    }
 }
+if(instance_exists(o_guia))show_debug_message(o_guia.x)
+
+/*else if(instance_exists(o_guia)){
+	o_guia.vspeed =+0.25
+}*/
+
 

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_guia",
   "spriteId": {
-    "name": "s_guia_mask",
-    "path": "sprites/s_guia_mask/s_guia_mask.yy",
+    "name": "s_guia_portada",
+    "path": "sprites/s_guia_portada/s_guia_portada.yy",
   },
   "solid": false,
   "visible": true,
