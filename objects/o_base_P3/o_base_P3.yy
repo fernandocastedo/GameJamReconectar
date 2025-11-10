@@ -28,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Puzzle",
-    "path": "folders/Objects/Puzzle.yy",
+    "name": "Enchufes",
+    "path": "folders/Objects/Puzzle/Enchufes.yy",
   },
 }

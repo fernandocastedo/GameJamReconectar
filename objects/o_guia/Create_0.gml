@@ -6,7 +6,7 @@ accel = 0.5
 
 
 
-/*    IMPORTANTÍSIMO!!!!!
+/*    IMPORTANTÍSIMO (no olvidar)!!!!!
 dentro de la guía van a haber en total 3 modos (por ahora)
 Esos seran:
 - No chocar cables

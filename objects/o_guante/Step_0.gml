@@ -85,7 +85,7 @@ if(o_puzzle_controller.mirror == true){
 
 
 
-if(instance_exists(o_guia))show_debug_message(o_guia.x)
+//if(instance_exists(o_guia))show_debug_message(o_guia.x)
 
 /*else if(instance_exists(o_guia)){
 	o_guia.vspeed =+0.25
