@@ -1,4 +1,5 @@
 /// @description Configuración inicial de la madre
+
 // Asegurar variables globales (por si se carga antes que el jugador)
 if (!variable_global_exists("list_chat")) {
     global.list_chat = ds_queue_create();

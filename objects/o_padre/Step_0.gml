@@ -1,15 +1,16 @@
-/// @description Control de diálogo del padre (versión segura)
+/// @description Control de diálogo del padre (en nuevo cuarto)
+/// @description Step Event del o_padre (versión blindada)
 
-/// @description Control de diálogo del padre (versión blindada)
-
-// --- Asegurar variables ---
+// --- Asegurar variables locales ---
 if (!variable_instance_exists(id, "dialog_started")) dialog_started = false;
 if (!variable_instance_exists(id, "player_near")) player_near = false;
+
+// --- Asegurar variables globales ---
 if (!variable_global_exists("list_chat")) global.list_chat = ds_queue_create();
 if (!variable_global_exists("dialog_active")) global.dialog_active = false;
 if (!variable_global_exists("dialog_text")) global.dialog_text = "";
 
-// --- Detección de cercanía ---
+// Detectar si el jugador está cerca
 if (instance_exists(o_player)) {
     if (point_distance(x, y, o_player.x, o_player.y) < 60) {
         player_near = true;
@@ -18,13 +19,12 @@ if (instance_exists(o_player)) {
     }
 }
 
-
 // 1️⃣ Primer diálogo automático
 if (!dialog_started && player_near && !global.dialog_active) {
     ds_queue_clear(global.list_chat);
     ds_queue_enqueue(global.list_chat, "Elias... por fin llegaste al taller.");
     ds_queue_enqueue(global.list_chat, "Hay cosas que no pudimos arreglar... y no me refiero solo a los cables.");
-    ds_queue_enqueue(global.list_chat, "Si vas a bajar al sótano... asegúrate de estar preparado.");
+    ds_queue_enqueue(global.list_chat, "Si vas a bajar al sotano... asegurate de estar preparado.");
     
     instance_create_layer(0, 0, "GUI", o_chat);
     global.dialog_active = true;
@@ -35,7 +35,7 @@ if (!dialog_started && player_near && !global.dialog_active) {
 if (dialog_started && player_near && !global.dialog_active && keyboard_check_pressed(ord("E"))) {
     ds_queue_clear(global.list_chat);
     ds_queue_enqueue(global.list_chat, "No todo lo que se rompe puede repararse, Elias...");
-    ds_queue_enqueue(global.list_chat, "Pero tú ya lo sabes, ¿verdad?");
+    ds_queue_enqueue(global.list_chat, "Pero ya lo sabes, ¿verdad?");
     
     instance_create_layer(0, 0, "GUI", o_chat);
     global.dialog_active = true;
