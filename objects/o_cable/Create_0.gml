@@ -5,6 +5,10 @@ connected= 0
 sprite_index = global.colorcable
 colorfinal = sprite_index
 
+if(o_player.puzzle_habilitado == 3){
+	image_xscale= 0.75
+	image_yscale= 0.75
+}
 /* Antiguo codigo de verificación de colores por objetivo...
 if(global.objetivosAlcanzados ==0)
 {
